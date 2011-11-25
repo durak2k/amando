@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" >
+                            
+  <TextView  
+    style="@style/TextStyleUeberschrift"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"   
+    android:text="@string/txt_startseiteanzeigen_intro" />     
+      
+  <Button 
+    android:id="@+id/sf_position_senden"   
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"    
+    android:text="@string/sf_positionSenden"
+    android:onClick="onClickPositionSenden" />
+      
+  <Button 
+    android:id="@+id/sf_starte_geokontakte" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/sf_geokontakteVerwalten"
+    android:onClick="onClickGeokontakteVerwalten" />
+      
+  <Button 
+    android:id="@+id/sf_karte_anzeigen" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/sf_karteAnzeigen"        
+    android:onClick="onClickKarteAnzeigen" />
+      
+  <Button 
+    android:id="@+id/sf_simulation_starten" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/sf_simulation"        
+    android:onClick="onClickSimulationStarten" />
+      
+  <ImageView 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"    
+    android:layout_gravity="center_horizontal"        
+    android:src="@drawable/amando_logo" />
+    
+</LinearLayout>

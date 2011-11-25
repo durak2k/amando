@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Amando</string>
+
+  <!-- Schaltflaechentexte -->
+  <string name="sf_positionSenden">Position senden</string>
+  <string name="sf_geokontakteVerwalten">
+    Geokontakte verwalten
+  </string>
+  <string name="sf_karteAnzeigen">Karte anzeigen</string>
+  <string name="sf_simulation">Simulation starten</string>
+  
+  <!-- anwendungsweite Menueoptionen -->
+  <string name="men_startseiteAnzeigen">Startseite</string>
+  <string name="men_geokontaktAnlegen">Neu...</string>
+  <string name="men_geokontaktBearbeiten">Bearbeiten</string>
+  <string name="men_geokontaktImportieren">Import</string>
+  <string name="men_geokontaktLoeschen">Löschen</string>
+  <string name="men_geokontaktAnrufen">Geokontakt anrufen</string>
+  <string name="men_navigationStarten">Navigation starten</string>
+  <string name="men_hilfeAnzeigen">Hilfe</string>
+  <string name="men_einstellungenBearbeiten">Einstellungen</string>
+  <string name="men_positionSenden">Position senden</string>
+  <string name="men_zurueck">Zurück</string>
+  <string name="men_speichern">Speichern</string>
+  <string name="men_amandoBeenden">Beenden</string>
+    
+  <!-- Hilfetexte -->
+  
+  <!-- Startseite -->
+  <string name="txt_startseiteanzeigen_intro">Sie haben folgende Optionen zur Verfügung:</string>
+  
+  <!-- Geokontaktliste -->
+  <string name="txt_geokontakt_auflisten_titel">Geokontakte</string>
+  <string name="txt_geokontakt_auflisten_kontaktauswahl">Kontakt auswählen</string>  
+  <string name="txt_geokontakt_auflisten_keineDaten">Noch keine Geokontakten vorhanden</string>
+
+  <!-- Geokontakte Details -->
+  <string name="txt_geokontakt_anzeigen_titel">Geokontakt</string>
+  <string name="txt_geokontakt_anzeigen_intro">Details des Geokontakts</string>
+  
+  <!-- Geokontakte bearbeiten -->
+  <string name="txt_geokontakt_bearbeiten_titel">Geokontakt</string>
+  <string name="txt_geokontakt_bearbeiten_intro">Pflegen Sie den Geokontakt</string>
+  
+  <!-- Geokontakt allgemein -->
+  <string name="txt_geokontakt_name">Name:</string>
+  <string name="txt_geokontakt_telefonnummer">Telefonnummer:</string>
+  <string name="txt_geokontakt_letzte_position">Letzte Position:</string>
+  <string name="txt_geokontakt_stichwort">Stichwort:</string>
+  <string name="txt_geokontakt_datum">Datum:</string>
+  
+  <!-- Position senden -->
+  <string name="txt_position_senden_titel">Position Senden</string>  
+  <string name="txt_position_senden_intro">Senden Sie ihre Position an einen Geokontakt</string>
+  <string name="txt_position_aktualisieren">Eigene Position aktualisieren</string>
+
+   <!-- Karte anzeigen -->
+  <string name="txt_karte_anzeigen_titel">Karte der Geokontakte</string>
+  <string name="txt_karte_anzeigen_intro">Positionen werden angezeigt</string>
+
+  <!-- Einstellungen bearbeiten -->
+  <string name="txt_einstell_cat_title_allg">Allgemein</string>
+  <string name="txt_einstell_nickname">Nickname</string>
+  <string name="txt_einstell_cat_title_server">Server</string>
+  <string name="txt_einstell_serverort">Ort des Servers</string>
+  <string name="txt_einstell_serverort_text">\'Lokal\': lokale Installation\n\'Extern\': Demo-Server</string>
+  <string name="txt_einstell_serverort_default">Extern</string>
+  <string name="txt_einstell_cat_title_position">Position</string>
+  <string name="txt_einstell_gps_min_zeit">Positionsermittlung (Zeit)</string>
+  <string name="txt_einstell_gps_min_dist">Positionsermittlung (Distanz)</string>
+ 
+</resources>
