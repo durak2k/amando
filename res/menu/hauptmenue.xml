@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+		android:id="@+id/opt_einstellungenBearbeiten" 
+		android:title="@string/men_einstellungenBearbeiten"
+		android:icon="@android:drawable/ic_menu_preferences" />
+
+	<item 
+		android:id="@+id/opt_hilfe" 
+		android:title="@string/men_hilfeAnzeigen"
+		android:icon="@android:drawable/ic_menu_help" />
+	<item 
+		android:id="@+id/opt_amandoBeenden" 
+		android:title="@string/men_amandoBeenden"
+		android:icon="@android:drawable/ic_menu_close_clear_cancel" />
+
+</menu>
+
+

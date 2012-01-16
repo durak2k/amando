@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android=
+	    "http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  <Spinner 
+    android:id="@+id/sp_sortierung"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:drawSelectorOnTop="true"
+    android:entries="@array/Sortierung"/>
+  
+  <ListView
+    android:id="@+id/android:list"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textFilterEnabled="true"     
+    android:cacheColorHint="@color/hintergrund"/>
+    <!-- android:cacheColorHint: 
+      Performantes Erhalten der Hintergrundfarbe beim Scrollen -->
+    
+  <TextView
+    android:id="@+id/android:empty"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=
+      "@string/txt_geokontakt_auflisten_keineDaten"/>
+</LinearLayout>
+
