@@ -8,11 +8,16 @@
 package de.androidbuch.amando;
 
 public final class R {
+    public static final class array {
+        public static final int Sortierung=0x7f050000;
+        public static final int serverort=0x7f050001;
+        public static final int serverort_werte=0x7f050002;
+    }
     public static final class attr {
     }
     public static final class color {
-        public static final int hintergrund=0x7f040000;
-        public static final int textfarbe=0x7f040001;
+        public static final int hintergrund=0x7f060000;
+        public static final int textfarbe=0x7f060001;
     }
     public static final class drawable {
         public static final int amando_logo=0x7f020000;
@@ -24,102 +29,128 @@ public final class R {
         public static final int pfeil=0x7f020006;
     }
     public static final class id {
-        public static final int sf_karte_anzeigen=0x7f070002;
-        public static final int sf_position_senden=0x7f070000;
-        public static final int sf_simulation_starten=0x7f070003;
-        public static final int sf_starte_geokontakte=0x7f070001;
+        public static final int opt_amandoBeenden=0x7f0a0012;
+        public static final int opt_einstellungenBearbeiten=0x7f0a0010;
+        public static final int opt_geokontakt_verwalten_hilfe=0x7f0a0013;
+        public static final int opt_hilfe=0x7f0a0011;
+        public static final int sf_karte_anzeigen=0x7f0a000e;
+        public static final int sf_position_senden=0x7f0a000c;
+        public static final int sf_simulation_starten=0x7f0a000f;
+        public static final int sf_starte_geokontakte=0x7f0a000d;
+        public static final int sp_sortierung=0x7f0a000a;
+        public static final int tx_datum=0x7f0a0009;
+        public static final int tx_datum_label=0x7f0a0008;
+        public static final int tx_letzte_position=0x7f0a0005;
+        public static final int tx_letzte_position_label=0x7f0a0004;
+        public static final int tx_name_edit=0x7f0a0001;
+        public static final int tx_name_label=0x7f0a0000;
+        public static final int tx_stichwort=0x7f0a0007;
+        public static final int tx_stichwort_label=0x7f0a0006;
+        public static final int tx_telefon_edit=0x7f0a0003;
+        public static final int tx_telefon_label=0x7f0a0002;
+        public static final int webview=0x7f0a000b;
     }
     public static final class layout {
-        public static final int main=0x7f030000;
-        public static final int startseite_anzeigen=0x7f030001;
+        public static final int geokontakt_bearbeiten=0x7f030000;
+        public static final int geokontakte_auflisten=0x7f030001;
+        public static final int hilfe_anzeigen=0x7f030002;
+        public static final int startseite_anzeigen=0x7f030003;
+    }
+    public static final class menu {
+        public static final int hauptmenue=0x7f090000;
+        public static final int startseite_contextmenue=0x7f090001;
+    }
+    public static final class raw {
+        public static final int hilfe_komplett=0x7f040000;
+        public static final int hilfe_startseite_geokontakte=0x7f040001;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int men_amandoBeenden=0x7f050011;
-        public static final int men_einstellungenBearbeiten=0x7f05000d;
-        public static final int men_geokontaktAnlegen=0x7f050006;
-        public static final int men_geokontaktAnrufen=0x7f05000a;
-        public static final int men_geokontaktBearbeiten=0x7f050007;
-        public static final int men_geokontaktImportieren=0x7f050008;
-        public static final int men_geokontaktLoeschen=0x7f050009;
-        public static final int men_hilfeAnzeigen=0x7f05000c;
-        public static final int men_navigationStarten=0x7f05000b;
-        public static final int men_positionSenden=0x7f05000e;
-        public static final int men_speichern=0x7f050010;
+        public static final int app_name=0x7f070000;
+        public static final int men_amandoBeenden=0x7f070011;
+        public static final int men_einstellungenBearbeiten=0x7f07000d;
+        public static final int men_geokontaktAnlegen=0x7f070006;
+        public static final int men_geokontaktAnrufen=0x7f07000a;
+        public static final int men_geokontaktBearbeiten=0x7f070007;
+        public static final int men_geokontaktImportieren=0x7f070008;
+        public static final int men_geokontaktLoeschen=0x7f070009;
+        public static final int men_hilfeAnzeigen=0x7f07000c;
+        public static final int men_navigationStarten=0x7f07000b;
+        public static final int men_positionSenden=0x7f07000e;
+        public static final int men_speichern=0x7f070010;
         /**  anwendungsweite Menueoptionen 
          */
-        public static final int men_startseiteAnzeigen=0x7f050005;
-        public static final int men_zurueck=0x7f05000f;
-        public static final int sf_geokontakteVerwalten=0x7f050002;
-        public static final int sf_karteAnzeigen=0x7f050003;
+        public static final int men_startseiteAnzeigen=0x7f070005;
+        public static final int men_zurueck=0x7f07000f;
+        public static final int sf_geokontakteVerwalten=0x7f070002;
+        public static final int sf_karteAnzeigen=0x7f070003;
         /**  Schaltflaechentexte 
          */
-        public static final int sf_positionSenden=0x7f050001;
-        public static final int sf_simulation=0x7f050004;
+        public static final int sf_positionSenden=0x7f070001;
+        public static final int sf_simulation=0x7f070004;
         /**  Einstellungen bearbeiten 
          */
-        public static final int txt_einstell_cat_title_allg=0x7f050024;
-        public static final int txt_einstell_cat_title_position=0x7f05002a;
-        public static final int txt_einstell_cat_title_server=0x7f050026;
-        public static final int txt_einstell_gps_min_dist=0x7f05002c;
-        public static final int txt_einstell_gps_min_zeit=0x7f05002b;
-        public static final int txt_einstell_nickname=0x7f050025;
-        public static final int txt_einstell_serverort=0x7f050027;
-        public static final int txt_einstell_serverort_default=0x7f050029;
-        public static final int txt_einstell_serverort_text=0x7f050028;
-        public static final int txt_geokontakt_anzeigen_intro=0x7f050017;
+        public static final int txt_einstell_cat_title_allg=0x7f070024;
+        public static final int txt_einstell_cat_title_position=0x7f07002a;
+        public static final int txt_einstell_cat_title_server=0x7f070026;
+        public static final int txt_einstell_gps_min_dist=0x7f07002c;
+        public static final int txt_einstell_gps_min_zeit=0x7f07002b;
+        public static final int txt_einstell_nickname=0x7f070025;
+        public static final int txt_einstell_serverort=0x7f070027;
+        public static final int txt_einstell_serverort_default=0x7f070029;
+        public static final int txt_einstell_serverort_text=0x7f070028;
+        public static final int txt_geokontakt_anzeigen_intro=0x7f070017;
         /**  Geokontakte Details 
          */
-        public static final int txt_geokontakt_anzeigen_titel=0x7f050016;
-        public static final int txt_geokontakt_auflisten_keineDaten=0x7f050015;
-        public static final int txt_geokontakt_auflisten_kontaktauswahl=0x7f050014;
+        public static final int txt_geokontakt_anzeigen_titel=0x7f070016;
+        public static final int txt_geokontakt_auflisten_keineDaten=0x7f070015;
+        public static final int txt_geokontakt_auflisten_kontaktauswahl=0x7f070014;
         /**  Geokontaktliste 
          */
-        public static final int txt_geokontakt_auflisten_titel=0x7f050013;
-        public static final int txt_geokontakt_bearbeiten_intro=0x7f050019;
+        public static final int txt_geokontakt_auflisten_titel=0x7f070013;
+        public static final int txt_geokontakt_bearbeiten_intro=0x7f070019;
         /**  Geokontakte bearbeiten 
          */
-        public static final int txt_geokontakt_bearbeiten_titel=0x7f050018;
-        public static final int txt_geokontakt_datum=0x7f05001e;
-        public static final int txt_geokontakt_letzte_position=0x7f05001c;
+        public static final int txt_geokontakt_bearbeiten_titel=0x7f070018;
+        public static final int txt_geokontakt_datum=0x7f07001e;
+        public static final int txt_geokontakt_letzte_position=0x7f07001c;
         /**  Geokontakt allgemein 
          */
-        public static final int txt_geokontakt_name=0x7f05001a;
-        public static final int txt_geokontakt_stichwort=0x7f05001d;
-        public static final int txt_geokontakt_telefonnummer=0x7f05001b;
-        public static final int txt_karte_anzeigen_intro=0x7f050023;
+        public static final int txt_geokontakt_name=0x7f07001a;
+        public static final int txt_geokontakt_stichwort=0x7f07001d;
+        public static final int txt_geokontakt_telefonnummer=0x7f07001b;
+        public static final int txt_karte_anzeigen_intro=0x7f070023;
         /**  Karte anzeigen 
          */
-        public static final int txt_karte_anzeigen_titel=0x7f050022;
-        public static final int txt_position_aktualisieren=0x7f050021;
-        public static final int txt_position_senden_intro=0x7f050020;
+        public static final int txt_karte_anzeigen_titel=0x7f070022;
+        public static final int txt_position_aktualisieren=0x7f070021;
+        public static final int txt_position_senden_intro=0x7f070020;
         /**  Position senden 
          */
-        public static final int txt_position_senden_titel=0x7f05001f;
+        public static final int txt_position_senden_titel=0x7f07001f;
         /**  Hilfetexte 
  Startseite 
          */
-        public static final int txt_startseiteanzeigen_intro=0x7f050012;
+        public static final int txt_startseiteanzeigen_intro=0x7f070012;
     }
     public static final class style {
         /**   Definition des Themes 
           parent="android:Theme.Light" 
          */
-        public static final int AmandoTheme=0x7f060000;
+        public static final int AmandoTheme=0x7f080000;
         /**  Listen werden wie folgt dargestellt: 
          */
-        public static final int ListView=0x7f060003;
+        public static final int ListView=0x7f080003;
         /**  Schaltflaechen stellen wir mit Hilfe des Texttyps da: 
          */
-        public static final int Schaltflaeche=0x7f060005;
+        public static final int Schaltflaeche=0x7f080005;
         /**  Fuer Schaltflaechen definieren wir einen eigenen Texttyp: 
          */
-        public static final int SchaltflaechenText=0x7f060004;
+        public static final int SchaltflaechenText=0x7f080004;
         /**  Normalerweise sieht unser Text so aus: 
          */
-        public static final int TextStyleNormal=0x7f060001;
+        public static final int TextStyleNormal=0x7f080001;
         /**  Ueberschriften sehen so aus: 
          */
-        public static final int TextStyleUeberschrift=0x7f060002;
+        public static final int TextStyleUeberschrift=0x7f080002;
     }
 }
